@@ -1,3 +1,67 @@
-body{
+.box{
+    max-width:450px;
+    margin : 0 auto;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+}
 
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2{
+    margin: 0;
+}
+
+#clock{
+    display:block;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 30px;
+    
+
+}
+
+#flex{
+padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed 2px rgba(0, 0, 0, 0.2);
+    padding:20px;
+}
+#flex2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+#flex3{
+    display: flex;
+    border-bottom: dashed 2px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    padding:20px;
+
+}
+
+.time{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.city{
+    font-size: 18px;
+}
+
+.date{
+    padding-bottom: 20px;
+}
+.coder{
+    text-align: center;
+    padding-top: 50px;
+}
+small{
+    font-size: 20px;
 }
