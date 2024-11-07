@@ -65,3 +65,17 @@ padding-top: 25px;
 small{
     font-size: 20px;
 }
+
+#button {
+    display:block;
+    margin:0 auto;
+    background: plum;
+    border-radius: 25px;
+    
+}
+
+a{
+    text-decoration:none;
+    color:blueviolet;
+    font-weight:bold;
+}
