@@ -29,6 +29,9 @@ setInterval(timeInterval,1);
 
 function updateCity(event){
     let timeZone= event.target.value;
+    if(timeZone==="current"){
+        timeZone=moment.tz.guess()
+    }
     let cityName= timeZone.replace("-"," ").split("/")[1];
     let cityDate=moment().tz(timeZone).format("MMMM D YYYY");
     let cityTime=moment().tz(timeZone).format("h:m:ss A");
